@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "idealista – historia cen",
+  "version": "1.0",
+  "description": "Pokazuje historię zmian cen ogłoszeń na idealista.pt, idealista.com i idealista.it (z maili + to, co sam zobaczysz).",
+  "permissions": ["storage"],
+  "host_permissions": [
+    "https://docs.google.com/*",
+    "https://*.googleusercontent.com/*"
+  ],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["https://www.idealista.pt/*", "https://www.idealista.com/*", "https://www.idealista.it/*"],
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "run_at": "document_idle"
+  }],
+  "action": { "default_popup": "popup.html", "default_title": "Historia cen idealista" }
+}

@@ -1,0 +1,9 @@
+.ihc-box{margin:12px 0;padding:10px 14px;border:1px solid #d6d6d6;border-left:4px solid #1f6feb;border-radius:6px;background:#f7f9fc;font:14px/1.45 system-ui,sans-serif;color:#222;max-width:560px}
+.ihc-title{font-weight:700;margin-bottom:4px}
+.ihc-head{font-weight:600;margin-bottom:4px}
+.ihc-box ul{margin:4px 0 0 18px;padding:0}
+.ihc-box li{margin:2px 0}
+.ihc-src{margin-left:6px;font-size:11px;color:#888}
+.ihc-badge{display:inline-block;margin:4px 0 0 0;padding:2px 8px;border-radius:10px;background:#eef3fb;font:12px/1.5 system-ui,sans-serif;color:#333}
+.ihc-down{color:#1a7f37}
+.ihc-up{color:#c62828}
