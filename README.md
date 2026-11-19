@@ -9,7 +9,7 @@ zbierana z maili idealista przychodzących na ikark2024@gmail.com.
   Na stronach idealista.pt / idealista.com / idealista.it pokazuje przy cenie historię zmian:
   - z maili (pobierane z arkusza Google „idealista – historia cen (dla rozszerzenia)”),
   - oraz zmiany, które rozszerzenie samo zauważy podczas przeglądania (zapisywane lokalnie w przeglądarce).
-- `dane/historia-cen-2026.csv` – stan historii zmian cen na 19.11.2026 (81 zmian, 51 ogłoszeń).
+- `dane/historia-cen-2026.csv` – stan historii zmian cen na 19.11.2026 (81 zmian, 73 ogłoszenia).
 
 ## Instalacja rozszerzenia – krok po kroku
 
@@ -84,7 +84,7 @@ ale tylko wtedy, gdy ma do niego dostęp. Wybierz **jedną** z dwóch możliwoś
 ### Krok 7. Sprawdź, czy działa
 
 1. Kliknij ikonę rozszerzenia na pasku → **Odśwież teraz**.
-2. Powinno się pokazać m.in. **„Ogłoszenia ze zmianami (z maili): 51”** (albo więcej) i data ostatniego pobrania.
+2. Powinno się pokazać m.in. **„Ogłoszenia ze zmianami (z maili): 73”** (albo więcej) i data ostatniego pobrania.
    Czerwony komunikat „Nie udało się pobrać historii z maili” oznacza brak dostępu – wróć do kroku 6.
 3. Otwórz ogłoszenie, którego cena się zmieniała, np.
    https://www.idealista.pt/imovel/35275156/ lub https://www.idealista.com/inmueble/111950609/
