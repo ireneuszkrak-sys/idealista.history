@@ -53,7 +53,7 @@ W nawiasach podane są angielskie nazwy przycisków – na wypadek, gdyby Chrome
 2. W oknie wyboru folderu przejdź do `idealista.history-main` i zaznacz folder **`rozszerzenie`**
    (sam folder – nie wchodź do środka i nie wybieraj pojedynczych plików).
 3. Kliknij **Wybierz folder** (Select Folder / na Macu **Otwórz**).
-4. Na liście rozszerzeń pojawi się kafelek **„idealista – historia cen” 1.0** z włączonym przełącznikiem.
+4. Na liście rozszerzeń pojawi się kafelek **„idealista – historia cen” 1.1** z włączonym przełącznikiem.
    Jeśli pojawi się czerwony przycisk **Błędy** (Errors) – patrz „Rozwiązywanie problemów” niżej.
 
 ### Krok 5. Przypnij ikonę do paska
@@ -97,6 +97,9 @@ ale tylko wtedy, gdy ma do niego dostęp. Wybierz **jedną** z dwóch możliwoś
 
 - **zmiany z maili** (oznaczone „mail”) – z arkusza Google, odświeżane automatycznie co 3 godziny
   (albo od razu przyciskiem **Odśwież teraz**);
+- **obniżka pokazana przez samą stronę idealista** (oznaczona „strona idealista”) – jeśli idealista
+  wyświetla przy cenie przekreśloną starą cenę i procent obniżki, rozszerzenie też ją pokaże,
+  nawet gdy nie przyszedł o niej żaden mail (data takiej zmiany jest nieznana – „wcześniej”);
 - **zmiany zauważone na stronie** (oznaczone „strona”) – rozszerzenie zapamiętuje cenę każdego
   ogłoszenia, które oglądasz (na liście wyników albo na stronie ogłoszenia). Jeśli przy kolejnej
   wizycie cena jest inna, dopisuje zmianę. Te dane są zapisane tylko w Twojej przeglądarce
@@ -114,8 +117,10 @@ ale tylko wtedy, gdy ma do niego dostęp. Wybierz **jedną** z dwóch możliwoś
 - **Nie widzę ramki ani znaczków na idealista** – odśwież stronę idealista (F5). Sprawdź na
   `chrome://extensions`, czy przełącznik rozszerzenia jest włączony. Jeśli dalej nic –
   idealista mógł zmienić wygląd strony; zgłoś to, rozszerzenie trzeba będzie poprawić.
-- **Ramka mówi „Brak zmian ceny w mailach”** – dla tego ogłoszenia nie było maila o zmianie ceny.
-  To normalne.
+- **Ramka mówi „Brak zmian ceny w mailach”, a cena była zmieniana** – idealista wysyła maile o zmianie
+  ceny tylko dla ogłoszeń z ulubionych albo z zapisanych wyszukiwań, więc części zmian w mailach nie ma.
+  Od wersji 1.1 rozszerzenie odczytuje też przekreśloną starą cenę ze strony idealista. Dodaj ogłoszenie
+  do ulubionych na idealista – kolejne zmiany ceny przyjdą mailem i trafią do historii.
 - **Czerwony komunikat w okienku rozszerzenia** – brak dostępu do arkusza Google (krok 6).
 - **Chrome przy starcie pokazuje ostrzeżenie o rozszerzeniach w trybie dewelopera** – to normalne
   dla rozszerzeń instalowanych spoza sklepu Chrome. Kliknij, żeby zamknąć (nie wyłączaj rozszerzenia).
